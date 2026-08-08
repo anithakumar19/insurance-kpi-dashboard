@@ -33,5 +33,7 @@ Claim Frequency = DIVIDE(SUM(Fact_Claims[ClaimCount]), SUM(Fact_Premiums[PolicyC
 Average Claim Cost = DIVIDE(SUM(Fact_Claims[TotalClaims]), SUM(Fact_Claims[ClaimCount]))
 LR Status = IF([Loss Ratio KPI] > 0.75, "⚠ Alert", "OK")
 
+![Dashboard Screenshot](Dashboard.png)
+
 ## 👩‍💻 Author
 **Anitha Kumar** | MSc Data Science (DSA) | EPITA, Paris | 
